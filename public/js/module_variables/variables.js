@@ -1,7 +1,7 @@
 define(function (require,exports,module){
 
     //请求IP
-    var IP = "http://172.20.236.3:3000/";
+    var IP = "http://192.168.7.86:3000/";
     var BASE_PATH = IP + "api/";
 
     //接口URL
