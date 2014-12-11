@@ -21,11 +21,9 @@
 	
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<h1>请选择你需要的插件</h1>
-		</div>
-		<div class="row">
+	<div class="wrapper">
+		<div class="tabtit relative"><h1>构建项目</h1>请选择您需要得项目</div>
+		<div class="row search-area">
 			<form class="navbar-form navbar-left" role="search" id="pluginSearch">
 	        	<div class="form-group">
 	          		<input type="text" id="searchKey" class="form-control" placeholder="Search">
@@ -33,7 +31,7 @@
 	        	<button type="submit" class="btn btn-default">搜索插件</button>
 	      	</form>
 		</div>
-		<div class="row">
+		<div class="row plugin-header">
 			<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
 				<h3>官网插件</h3>
 				<div class="row">
@@ -48,24 +46,26 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="radio">
-				<label>
-			    	<input type="radio" name="projectType" id="optionsRadios1" value="android" checked>
-			    	构建Android项目
-			  	</label>
-			</div>
-			<div class="radio">
-				<label>
-			    	<input type="radio" name="projectType" id="optionsRadios2" value="ios">
-			    	构建ios项目
-			  	</label>
+			<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+				<div class="radio">
+					<label>
+				    	<input type="radio" name="projectType" id="optionsRadios1" value="android" checked>
+				    	构建Android项目
+				  	</label>
+				</div>
+				<div class="radio">
+					<label>
+				    	<input type="radio" name="projectType" id="optionsRadios2" value="ios">
+				    	构建ios项目
+				  	</label>
+				</div>
 			</div>
 		</div>
 		<div class="row">
-			<p>
-			  <button id="createBtn" type="button" class="btn btn-info btn-lg">创建项目</button>
-			  <a href="javascript:;" id="downLoad" class="btn btn-info btn-lg disabled">下载项目</a>
-			</p>
+			<div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+			  <button id="createBtn" type="button" class="btn btn-info mr10">创建项目</button>
+			  <a href="javascript:;" id="downLoad" class="btn btn-info disabled">下载项目</a>
+			</div>
 		</div>
 	</div>
 </body>

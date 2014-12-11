@@ -11,23 +11,23 @@
 	<link rel="stylesheet" href="framework/css/framework_main.css" />
 	<link rel="stylesheet" href="css/common.css" />
 </head>
-<body>	
-	<div class="container-fluid">
-		<form role="form">
-			<div class="form-group">
-		    	<label for="userName">用户名:</label>
-		    	<input type="text" class="form-control" id="userName" placeholder="输入用户名">
-		 	</div>
-		  	<div class="form-group">
-		    	<label for="password">密码:</label>
-		    	<input type="password" class="form-control" id="password" placeholder="输入密码">
-		  	</div>
-		  	<div class="register">
-				<a href="html/register.html">注册</a>
-		  	</div>
-		  	<button id="login" type="submit" class="btn btn-default">登录</button>
-		</form>
-	</div>
+<body class="lgibody">	
+<div class="lgi-info">
+	<div class="lgi-tit">研发打包系统登录</div>
+	<form role="form" class="lgi-input">
+		<div class="lgi-item">
+		    <label for="userName" class="fm-label">用户名:</label>
+		    <input type="text" class="text" id="userName" placeholder="输入用户名">
+		 </div>
+		  <div class="lgi-item">
+		    <label for="password" class="fm-label">密码:</label>
+		    <input type="password" class="text" id="password" placeholder="输入密码">
+		  </div>
+		  <div class="lgi-btn">
+			<button id="login" type="submit" class="lgibtn see-info cboxElement">用户登录</button><a href="html/register.html" class="color-green">还没有账号？立即注册</a>
+		</div>
+	</form>
+</div>
 </body>
 <script>
 	/**

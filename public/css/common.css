@@ -21,3 +21,46 @@
   line-height:80px;
   text-align:right;
 }
+
+body {font: 12px/20px Arial,Tahoma,Helvetica,'微软雅黑','宋体',sans-serif;}
+html,body,div,form,p,h3,h4,ul,li,a,b,span,input,label,img,i,h1,h2,h3,h4,h5,h6,dl,dt,dd,iframe{border:none; margin: 0; padding: 0;}
+/*margin*/
+.lgibody{background:#31659f;color:#4c4c4c;}
+.lgi-info{width:789px;margin:50px auto 0;}
+.lgi-tit{color:#fff;font-size:18px;font-weight:bold;text-align:center;line-height:70px;}
+.lgi-input{background:#fff;width:358px;padding:29px 31px 29px 21px;margin:0 auto;-webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;box-shadow: 1px 1px 1px #afcece;-moz-box-shadow: 1px 1px 1px #afcece;-webkit-box-shadow: 1px 1px 1px #afcece;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=10, Color='#afcece');
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=10, Color='#afcece')";}
+.lgi-item {padding: 0 0 19px 72px;_padding: 0 0 19px 69px;}
+.lgi-item .fm-label {float: left;width: 69px;margin-left: -69px;font-size:14px;line-height:35px;}
+.text{width:234px;border:1px solid #e6e6e6;background:#fafafa;padding:6px;-webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;vertical-align:middle;}
+.lgi-btn{border-top:1px solid #ededed;padding-top:15px;color:#999;margin-top:3px;position:relative;}
+.lgibtn{width:82px;height:31px;line-height:31px;background:#31659f;overflow:hidden;margin-right:13px;border:none;color:#fff;}
+.lgibtn:hover{background:#31658f}
+.color-green{color:#005393;line-height:32px;}
+/* 設定提示字的文字顏色 */
+::-webkit-input-placeholder {color: b2b2b2;}
+:-moz-placeholder {color: b2b2b2;}
+.placeholder {color: #b2b2b2;}
+/* 設定提示字的文字顏色 */
+::-webkit-input-placeholder {color: b2b2b2;}
+:-moz-placeholder {color: b2b2b2;}
+.placeholder {color: #b2b2b2;}
+#Tooltip{background:url(../images/green-arrow.gif) no-repeat 20px bottom;padding-bottom:9px;}
+#DHTMLgoodies_formTooltipContent{padding:6px;color:#fff;}
+/**/
+.wrapper{padding:20px;}
+.relative{position:relative;}
+.tabtit{border-bottom:2px solid #ededed;height:40px;line-height:40px;margin-bottom:14px;padding-left:80px;font-size:14px;}
+.tabtit h1{position:absolute;line-height:38px;border-bottom:2px solid #222629;font-size:18px;display:inline-block;top:0;left:0;}.tab-bd{border-left:1px solid #ededed;border-top:1px solid #ededed;}
+.tab-bd td{padding:8px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;}
+.tdbd-bot{border-bottom:1px solid #fff;}
+.tdbd-bot-2{border-bottom:1px solid #ededed;}
+.text-rt{text-align:right;}
+.td-gray-2{background:#fafafa;}
+.formGroup{padding:20px 0;}
+.mr10{margin-right:10px;}
+.plugin-header h3{padding:20px 0 10px;font-size:16px;border-bottom:1px solid #dedede;}
+
+
+
+
