@@ -60,6 +60,9 @@ html,body,div,form,p,h3,h4,ul,li,a,b,span,input,label,img,i,h1,h2,h3,h4,h5,h6,dl
 .formGroup{padding:20px 0;}
 .mr10{margin-right:10px;}
 .plugin-header h3{padding:20px 0 10px;font-size:16px;border-bottom:1px solid #dedede;}
+.mainlist{width:40%;margin:50px auto 0;font-size:20px;line-height:40px;}
+.mainlist .glyphicon{margin-right:10px;float:left;margin-top:9px;}
+.mainlist .glyphicon-circle-arrow-right{float:right;}
 
 
 
